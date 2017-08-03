@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="dzien_zamowienia" label="Dzien Zamowienia" language="en" table="x_75712_bulka_zamowienie">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>dzien_zamowienia</element>
+            <help/>
+            <hint/>
+            <label>Dzien Zamowienia</label>
+            <language>en</language>
+            <name>x_75712_bulka_zamowienie</name>
+            <plural>Dzien Zamowienias</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-02 10:43:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>92fa6b46db9c4300084355d0cf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dzien Zamowienia</sys_name>
+            <sys_package display_value="bulka" source="x_75712_bulka">82996f0adb1c4300084355d0cf961934</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="bulka">82996f0adb1c4300084355d0cf961934</sys_scope>
+            <sys_update_name>sys_documentation_x_75712_bulka_zamowienie_dzien_zamowienia_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-02 10:43:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

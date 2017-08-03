@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Lista Zamowien" max_length="40" name="x_75712_bulka_lista_zamowien" type="collection">
+        <element label="Liczba Sztuk" max_length="40" name="liczba_sztuk" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Wartosc Zamowienia" max_length="20" name="wartosc_zamowienia" type="decimal"/>
+        <element label="zamawiajacy" max_length="32" name="zamawiajacy" reference="sys_user" type="reference"/>
+        <element label="Zamawiana Bulka" max_length="32" name="zamawiana_bulka" reference="x_75712_bulka_bulkamenu" type="reference"/>
+        <element label="Zamowienie" max_length="32" name="zamowienie" reference="x_75712_bulka_zamowienie" type="reference"/>
+        <index name="index">
+            <element name="zamawiajacy"/>
+        </index>
+        <index name="index2">
+            <element name="zamawiana_bulka"/>
+        </index>
+        <index name="index3">
+            <element name="zamowienie"/>
+        </index>
+    </element>
+</database>

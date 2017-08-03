@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Zamowienie" max_length="40" name="x_75712_bulka_zamowienie" type="collection">
+        <element display="true" label="Dzien Zamowienia" max_length="40" name="dzien_zamowienia" type="glide_date"/>
+    </element>
+</database>
